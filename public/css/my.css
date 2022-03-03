@@ -1,0 +1,131 @@
+.menu1 ul {
+    position: absolute;
+    z-index: 999;
+}
+
+.break {
+    clear: both;
+    height: 10px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.break90 {
+    clear: both;
+    height: 10px;
+    width: 90%;
+    margin: auto;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.space20 {
+    height: 20px;
+    width: 100%;
+}
+
+.row-item {
+    padding-left: 15px;
+}
+
+.border-left {
+    border-left: 1px solid #eeeeee;
+}
+
+.border-right {
+    border-right: 1px solid #eeeeee;
+}
+
+.myheader {
+    background-color: #337ab7;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+.nav {
+    background-color: black;
+}
+.navbar-header a {
+    color: #fff;
+}
+.navbar-header a:hover {
+    text-decoration: none;
+    color: #2574a9;
+}
+.dropdown {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    display: inline-block;
+}
+.dropdown a {
+    color: white;
+}
+.dropdown a:hover {
+    text-decoration: none;
+    color: #2574a9;
+}
+.dropdown-menu {
+    position: relative;
+    background-color: black;
+    z-index: 1;
+    list-style: none;
+    top: 27px;
+    left: 135px;
+    padding: 10px;
+}
+
+.panel-heading {
+    background-color: #39e600;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.panel-body {
+    border: 1px solid #b8b894;
+    padding: 5px;
+}
+.panel-body button {
+    margin: 10px;
+}
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+} */
+.dropdown-menu a:hover {
+    color: #2574a9;
+}
+.dataTables_wrapper {
+    margin-top: 70px;
+}
+.dataTables_length {
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+.dataTables_filter {
+    position: absolute;
+    right: 5px;
+    top: -40px;
+}
+.dataTables_paginate {
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    margin: 2px;
+}
+.dataTables_paginate a {
+    color: black;
+    text-decoration: none;
+}
+.dataTables_paginate a:hover {
+    color: #2574a9;
+}
+.paginate_button {
+    margin: 0 5px;
+}
+a:hover {
+    text-decoration: none;
+}
